@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>itslukasreal</title>
+    <style>
+      body {
+        background: #0d0d0d;
+        color: white;
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .pfp {
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+      }
+      .bio {
+        font-size: 18px;
+        margin-bottom: 20px;
+        opacity: 0.7;
+      }
+      .link {
+        background: #1a1a1a;
+        border: 1px solid #333;
+        padding: 12px 20px;
+        margin: 6px 0;
+        text-decoration: none;
+        color: white;
+        border-radius: 10px;
+        display: inline-block;
+        transition: all 0.2s ease;
+      }
+      .link:hover {
+        background: #333;
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <img class="pfp" src="https://your-image-url.com/pfp.jpg" alt="PFP" />
+    <div class="bio">roblox dev. kinda.</div>
+    <a class="link" href="https://roblox.com/users/yourid">Roblox</a>
+    <a class="link" href="https://discord.com/users/yourid">Discord</a>
+  </body>
+</html>
